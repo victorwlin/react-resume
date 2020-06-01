@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/static/js/main.6d3c5551.chunk.js",
+    "main.js.map": "/static/js/main.6d3c5551.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ab52fb89.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ab52fb89.js.map",
+    "static/js/2.a566d403.chunk.js": "/static/js/2.a566d403.chunk.js",
+    "static/js/2.a566d403.chunk.js.map": "/static/js/2.a566d403.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ff759b398683ce23af551b538c418aa8.js": "/precache-manifest.ff759b398683ce23af551b538c418aa8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.a566d403.chunk.js.LICENSE.txt": "/static/js/2.a566d403.chunk.js.LICENSE.txt",
+    "static/media/css.svg": "/static/media/css.8c748fcf.svg",
+    "static/media/firebase.png": "/static/media/firebase.be43851e.png",
+    "static/media/git.svg": "/static/media/git.1bb0206c.svg",
+    "static/media/html.svg": "/static/media/html.b5c60c2d.svg",
+    "static/media/javascript.svg": "/static/media/javascript.61ed8b05.svg",
+    "static/media/materialUI.svg": "/static/media/materialUI.09f699cd.svg",
+    "static/media/redux.svg": "/static/media/redux.91f2c4a9.svg",
+    "static/media/semanticUI.svg": "/static/media/semanticUI.88388fc7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab52fb89.js",
+    "static/js/2.a566d403.chunk.js",
+    "static/js/main.6d3c5551.chunk.js"
+  ]
+}
