@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 const Bar = props => {
     const classes = useStyles();
     const [value, setValue] = React.useState(0);
-    console.log(props);
+    
     const handleChange = (event, newValue) => {
       setValue(newValue);
     };

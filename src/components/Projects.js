@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 import { Typography, CardActions, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
@@ -72,13 +72,13 @@ function Projects(props) {
                 </Typography>
             </Grid>
             
-            <Grid item xs={0} sm={2} lg={3} />
+            <Grid item xs={false} sm={2} lg={3} />
 
             <Grid item container xs={12} sm={8} lg={6} spacing={1}>
                 {showProjectCards(projectCards)}
             </Grid>
 
-            <Grid item xs={0} sm={2} lg={3} />
+            <Grid item xs={false} sm={2} lg={3} />
 
         </Grid>
     );

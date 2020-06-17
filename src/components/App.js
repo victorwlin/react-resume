@@ -1,6 +1,6 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 
-import { Typography, Grid, AppBar, Tab, Tabs } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 
 import Title from "./Title";
 import Bar from "./Bar";
