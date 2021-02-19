@@ -5,7 +5,7 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { PinDropSharp } from '@material-ui/icons';
+import Grid from '@material-ui/core/Grid';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -78,10 +78,15 @@ export default function Experience(props) {
 
 
   return (
-    <div className={classes.root} ref={props.getRef}>
+    <Grid item container xs={12} className={classes.root} ref={props.getRef}>
         
-      <Typography variant="h3" align="center">Experience</Typography>
-    
+      <Grid item xs={12}>
+        <Typography variant="h3" align="center">Experience</Typography>
+      </Grid>
+
+      <Grid item xs={false} sm={2} lg={3} />
+
+      <Grid item container xs={12} sm={8} lg={6} spacing={1}>
       <ExpansionPanel
         expanded={panel0}
         onChange={() => handleChange("panel0")}
@@ -154,7 +159,6 @@ Overview)</li>
             <li>Develop new management reports and financial metrics </li>
           </ul>
         </ExpansionPanelDetails>
-
       </ExpansionPanel>
 
       <ExpansionPanel
@@ -178,11 +182,10 @@ Overview)</li>
         <ExpansionPanelDetails className={classes.panelDetails2}>
           <ul className={classes.bullets}>
             <li>In charge of Quarterly Contingent Liability Reporting for Asia Pacific, Canada, Latin America Caribbean, and Merchants</li>
-            <li>Responsible for calculating and forecasting contingent liabilities from the cost certainty clauses of the contracts</li>
+            <li>Responsible for calculating and forecasting contingent liabilities from the cost certainty clauses of client incentive contracts</li>
             <li>Coordinated communication with the pricing teams, deal teams, and account executives for each region</li>
             <li>Interpreted and summarized contract language to implement in modeling</li>
-            <li>Performed Durbin Amendment Net Compensation testing for Visa’s entire portfolio of US issuers</li>
-            <li>Created year-end forecasts for issuers</li>
+            <li>Performed Durbin Amendment Net Compensation testing for Visa’s entire portfolio of US issuers and created year-end forecasts for each issuer</li>
             <li>Provided financial analysis and advice for client incentive deal propositions</li>
             <li>Significantly improved both speed and reliability by developing Excel automation for fee data inputs</li>
             <li>Pulled and organized all data from COGNOS (OpCerts) and MicroStrategy (GMBS, EDW, & MARS)</li>
@@ -227,7 +230,10 @@ executives, boards of directors, audit committees, FDIC, Federal Reserve, and ot
         </ExpansionPanelDetails>
 
       </ExpansionPanel>
+      </Grid>
 
-    </div>
+      <Grid item xs={false} sm={2} lg={3} />
+
+    </Grid>
   );
 }

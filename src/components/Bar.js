@@ -37,6 +37,13 @@ const Bar = props => {
       });
     };
 
+    const educationClick = () => {
+      props.giveEducationRef.current.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+      });
+    };
+
     const experienceClick = () => {
       props.giveExperienceRef.current.scrollIntoView({
           behavior: "smooth",
@@ -49,6 +56,7 @@ const Bar = props => {
           <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
             <Tab label="Skills" onClick={() => skillsClick()} />
             <Tab label="Projects" onClick={() => projectsClick()} />
+            <Tab label="Education" onClick={() => educationClick()} />
             <Tab label="Experience" onClick={() => experienceClick()} />
           </Tabs>
         </AppBar>

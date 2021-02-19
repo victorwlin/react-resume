@@ -27,13 +27,13 @@ const Title = () => {
                     variant="h1"
                     className={classes.header}
                 >
-                    Victor Lin,
+                    Victor Lin
                 </Typography>
             </Grid>
 
             <Grid item xs={12}>
                 <Typography variant="h2">
-                    front-end developer.
+                    Portfolio and Resume
                 </Typography>
             </Grid>
 
