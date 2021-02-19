@@ -25,10 +25,13 @@ const useStyles = makeStyles({
     },
     content: {
         padding: 0,
+    },
+    skills: {
+        paddingTop: 50
     }
 });
 
-function Skills() {
+function Skills(props) {
     const classes = useStyles();
   
     const skillCards = [
@@ -67,7 +70,7 @@ function Skills() {
     };
 
     return (
-        <Grid item container xs={12}>
+        <Grid item container xs={12} ref={props.getRef} className={classes.skills}>
             
             <Grid item xs={12}>
                 <Typography variant="h3" align="center">Skills</Typography>

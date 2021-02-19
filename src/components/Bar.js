@@ -23,19 +23,33 @@ const Bar = props => {
       setValue(newValue);
     };
 
+    const skillsClick = () => {
+      props.giveSkillsRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    };
+
     const projectsClick = () => {
-        props.giveRef.current.scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-        });
+      props.giveProjectsRef.current.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+      });
+    };
+
+    const experienceClick = () => {
+      props.giveExperienceRef.current.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+      });
     };
   
     return (
         <AppBar position="sticky">
           <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
+            <Tab label="Skills" onClick={() => skillsClick()} />
             <Tab label="Projects" onClick={() => projectsClick()} />
-            <Tab label="Skills" />
-            <Tab label="Experience" />
+            <Tab label="Experience" onClick={() => experienceClick()} />
           </Tabs>
         </AppBar>
     );

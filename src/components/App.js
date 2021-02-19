@@ -9,15 +9,17 @@ import Projects from "./Projects";
 import Experience from "./Experience";
 
 function App() {
+  const skillsRef = useRef(null);
   const projectsRef = useRef(null);
+  const experienceRef = useRef(null);
   
   return (
     <Grid container>
       <Title />
-      <Bar giveRef={projectsRef} />
-      <Skills />
+      <Bar giveSkillsRef={skillsRef} giveProjectsRef={projectsRef} giveExperienceRef={experienceRef} />
+      <Skills getRef={skillsRef} />
       <Projects getRef={projectsRef} />
-      <Experience />
+      <Experience getRef={experienceRef} />
     </Grid>
   );
 }
