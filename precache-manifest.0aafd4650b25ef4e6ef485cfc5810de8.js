@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c95d04041dfb2ef7a3cc7a1e93d4cfe3",
+    "revision": "6f84785c4582a22fece93be24f174bfc",
     "url": "/react-resume/index.html"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-resume/static/js/2.f4bf623b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4c67d6620c8a3e28f0e",
-    "url": "/react-resume/static/js/main.51141870.chunk.js"
+    "revision": "bd18a3d4e042ba0bfcfc",
+    "url": "/react-resume/static/js/main.ec52b602.chunk.js"
   },
   {
     "revision": "db970a90d1b29dc22a0e",
     "url": "/react-resume/static/js/runtime-main.a2f95e7a.js"
   },
   {
-    "revision": "5d21d90cc9b308f3f1ceef55ced88186",
-    "url": "/react-resume/static/media/bear.5d21d90c.png"
+    "revision": "c0bde553403c9cadff61c1d15b943e60",
+    "url": "/react-resume/static/media/bear.c0bde553.jpg"
   },
   {
     "revision": "3e0f0201cc3ea9a67fde45215de4cc6a",
@@ -88,10 +88,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-resume/static/media/redux.f1f5593f.svg"
   },
   {
-    "revision": "e0384f204e9cc8003a6b75670e07815e",
-    "url": "/react-resume/static/media/resume.e0384f20.png"
-  },
-  {
     "revision": "0355c6486bcf6b43abd14890efd6a915",
     "url": "/react-resume/static/media/seasons.0355c648.jpg"
   },
@@ -100,15 +96,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-resume/static/media/semanticUI.88388fc7.svg"
   },
   {
-    "revision": "dfdd4e08fba0397aad8bd7d46f6fcea1",
-    "url": "/react-resume/static/media/streams.dfdd4e08.png"
-  },
-  {
     "revision": "b8d4d8a1084cce0ca1e9a8c6813128be",
     "url": "/react-resume/static/media/video.b8d4d8a1.jpg"
   },
   {
-    "revision": "11139c3f9c60147b722d3637e79766c6",
-    "url": "/react-resume/static/media/weight.11139c3f.png"
+    "revision": "480b449cb0a05d97b057748021d21347",
+    "url": "/react-resume/static/media/weight.480b449c.jpg"
   }
 ]);
