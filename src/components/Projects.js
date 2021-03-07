@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Typography, CardActions, Button } from '@material-ui/core';
+import { Typography, CardActions, Button, CardHeader } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -26,9 +26,9 @@ function Projects(props) {
     const showProjectCards = projectCards => {
         return projectCards.map(el => {
             return (
-            <Grid item xs={12} key={el.title}>
+            <Grid item xs={12} sm={6} md={4} lg={3} key={el.title}>
             <Card>
-
+            <CardHeader title={el.title} subheader={el.framework} />
             <CardActionArea href={el.live}>
                 <CardMedia
                     className={classes.media}
@@ -36,9 +36,6 @@ function Projects(props) {
                     title={el.title}
                 />
                 <CardContent className={classes.content}>
-                    <Typography variant="h4">
-                        {el.title}
-                    </Typography>
                     <Typography variant="body2" color="textSecondary">
                         {el.desc}
                     </Typography>
