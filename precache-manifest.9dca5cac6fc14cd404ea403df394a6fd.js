@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c061724223ed2bc676b40919aa64ed9a",
+    "revision": "c95d04041dfb2ef7a3cc7a1e93d4cfe3",
     "url": "/react-resume/index.html"
   },
   {
-    "revision": "c9a29f9c6dd9e6e962bc",
-    "url": "/react-resume/static/js/2.4cdeb433.chunk.js"
+    "revision": "b486b66889e5405e7c35",
+    "url": "/react-resume/static/js/2.f4bf623b.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/react-resume/static/js/2.4cdeb433.chunk.js.LICENSE.txt"
+    "url": "/react-resume/static/js/2.f4bf623b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f6f3b1f3508a0515a25",
-    "url": "/react-resume/static/js/main.0a79c26a.chunk.js"
+    "revision": "e4c67d6620c8a3e28f0e",
+    "url": "/react-resume/static/js/main.51141870.chunk.js"
   },
   {
     "revision": "db970a90d1b29dc22a0e",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-resume/static/media/bear.5d21d90c.png"
   },
   {
-    "revision": "61f7f27b7a41e92042faa2d986a9121f",
-    "url": "/react-resume/static/media/blog.61f7f27b.png"
+    "revision": "3e0f0201cc3ea9a67fde45215de4cc6a",
+    "url": "/react-resume/static/media/blog.3e0f0201.jpg"
   },
   {
     "revision": "137ef4cbc46529683c19d62de87da19c",
@@ -48,36 +48,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-resume/static/media/git.14c0d117.svg"
   },
   {
-    "revision": "540ac94ef76cd0760e98c113af144858",
-    "url": "/react-resume/static/media/hookpractice.540ac94e.png"
+    "revision": "f2bc10f987a67b58832cbbb1798509f1",
+    "url": "/react-resume/static/media/hookpractice.f2bc10f9.jpg"
   },
   {
     "revision": "37b013e202ba4c6393397398b221fa5d",
     "url": "/react-resume/static/media/html.37b013e2.svg"
   },
   {
-    "revision": "7614b941a888bf91fd3498680d575cc9",
-    "url": "/react-resume/static/media/itemdetails.7614b941.png"
+    "revision": "9fd97bc4a2db294010f5ff4a18ef1c17",
+    "url": "/react-resume/static/media/itemdetails.9fd97bc4.jpg"
   },
   {
     "revision": "61ed8b054178d0e8d1285ad8f29f4045",
     "url": "/react-resume/static/media/javascript.61ed8b05.svg"
   },
   {
+    "revision": "00131219c71cc5dfeb51b25e50907a9c",
+    "url": "/react-resume/static/media/language.00131219.jpg"
+  },
+  {
     "revision": "71c5bf47b89763352c913a2334cd8172",
     "url": "/react-resume/static/media/materialUI.71c5bf47.svg"
   },
   {
-    "revision": "b716045a33d7e43d36bf9dfb6f907a4e",
-    "url": "/react-resume/static/media/picturesearch.b716045a.png"
+    "revision": "fd0502d239647f51f7a6d5e864ce467e",
+    "url": "/react-resume/static/media/picturesearch.fd0502d2.jpg"
   },
   {
     "revision": "d9aec4aabe2e620dc9c7c095f79b6291",
     "url": "/react-resume/static/media/pig.d9aec4aa.jpg"
   },
   {
-    "revision": "f81c6b0434d69714fffb67e9b3c26aac",
-    "url": "/react-resume/static/media/recipe.f81c6b04.jpg"
+    "revision": "2ee795721d86ea94baf73a4e0e70747f",
+    "url": "/react-resume/static/media/recipe.2ee79572.jpg"
   },
   {
     "revision": "f1f5593f9da2df861040dbf9e777adc6",
@@ -88,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-resume/static/media/resume.e0384f20.png"
   },
   {
-    "revision": "86c34734062dfb0ff9cd25af8bb0719a",
-    "url": "/react-resume/static/media/seasons.86c34734.png"
+    "revision": "0355c6486bcf6b43abd14890efd6a915",
+    "url": "/react-resume/static/media/seasons.0355c648.jpg"
   },
   {
     "revision": "88388fc7dc855ba26e2d0ecdf4f07dc7",
@@ -100,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-resume/static/media/streams.dfdd4e08.png"
   },
   {
-    "revision": "a2f9ade9edc38aad754ffca869436fe1",
-    "url": "/react-resume/static/media/video.a2f9ade9.png"
+    "revision": "b8d4d8a1084cce0ca1e9a8c6813128be",
+    "url": "/react-resume/static/media/video.b8d4d8a1.jpg"
   },
   {
     "revision": "11139c3f9c60147b722d3637e79766c6",
